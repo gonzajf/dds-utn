@@ -8,12 +8,6 @@ public class Venta {
 	private int cantidad;
 	private LocalDate fecha;
 	
-	public Venta(Prenda prenda, int cantidad, LocalDate fecha){
-		this.prenda = prenda;
-		this.cantidad = cantidad;
-		this.fecha = fecha;
-	}
-
 	public Prenda getPrenda() {
 		return prenda;
 	}
@@ -37,5 +31,4 @@ public class Venta {
 	public void setFecha(LocalDate fecha) {
 		this.fecha = fecha;
 	}
-	
 }

@@ -32,7 +32,7 @@ public abstract class Prenda {
 	}
 	
 	public double getPrecioFinal(){
-		return (this.valorFijoDelNegocio + this.tipoPrenda.getPrecioBase())*this.getTasaDeImportacion();
+		return (valorFijoDelNegocio + this.tipoPrenda.getPrecioBase())*this.getTasaDeImportacion();
 	}
 
 	public TipoPrenda getTipoPrenda() {

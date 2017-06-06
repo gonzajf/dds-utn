@@ -1,8 +1,8 @@
 package dds.ejercicios.macoWins;
 
-public class Saco implements TipoPrenda {
+public class Camisa implements TipoPrenda {
 
-	private static double precioBase = 1300;
+	private static double precioBase = 1200;
 	
 	@Override
 	public double getPrecioBase() {

@@ -4,6 +4,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import dds.ejercicios.clientesBanco.Cliente;
+import dds.ejercicios.clientesBanco.CriterioArriesgado;
+import dds.ejercicios.clientesBanco.CriterioMixto;
+
 public class ClienteTest {
 
 	private Cliente clienteArriesgado;

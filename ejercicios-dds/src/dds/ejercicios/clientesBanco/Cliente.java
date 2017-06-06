@@ -1,4 +1,4 @@
-package dds.ejerccicios.clientesBanco;
+package dds.ejercicios.clientesBanco;
 
 public class Cliente {
 
